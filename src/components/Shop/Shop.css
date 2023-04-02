@@ -8,6 +8,9 @@
   gap: 5px;
   margin: 100px 100px;
 }
+.cart-container {
+  background-color: orange;
+}
 
 @media screen and (max-width: 1500px) {
   .products-container {
