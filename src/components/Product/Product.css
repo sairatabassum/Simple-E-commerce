@@ -34,12 +34,19 @@
   margin-top: 5px;
 }
 .btn-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   background: #ffe0b3;
   border: 1px solid #95a0a7;
   border-radius: 0px 0px 8px 8px;
   position: absolute;
   bottom: 0;
+  padding: 10px;
+}
+.btn-cart .btn-text {
+  margin: 5px;
 }
 
 .btn-cart:hover {
