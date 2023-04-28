@@ -12,12 +12,14 @@ const Shop = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
 
+  // From json file
   useEffect(() => {
     fetch("products.json")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
 
+  // From LocalStorage
   useEffect(() => {
     const storedCart = getStoredCart();
     const savedCart = [];
